@@ -5,17 +5,16 @@
         <TargetFramework>net6.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
-        <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
         <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     </PropertyGroup>
 
     <ItemGroup>
       <PackageReference Include="ComputeSharp" Version="2.0.0-alpha.20" />
       <PackageReference Include="ComputeSharp.Dynamic" Version="2.0.0-alpha.20" />
-      <PackageReference Include="SixLabors.ImageSharp" Version="2.1.2" />
-<!--
+      <PackageReference Include="glfw-net" Version="3.3.1" />
+      <PackageReference Include="OpenTK.redist.glfw" Version="3.3.7.27" />
+      <PackageReference Include="SkiaSharp" Version="1.68.3" />
       <PackageReference Include="ComputeSharp.Dynamic" Version="2.0.0-alpha.25" />
--->
     </ItemGroup>
 
 </Project>
